@@ -1,0 +1,22 @@
+body{
+      
+    background-color: #343a40;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulos{
+  padding-left: 10px;
+  color: #b3b3c6;
+
+}
+
+.container{
+margin: 1rem;
+  padding: 1rem;
+  /* IMPORTANTE */
+  text-align: center;
+}
+table.table-bordered{
+    margin-left: 360px;
+}

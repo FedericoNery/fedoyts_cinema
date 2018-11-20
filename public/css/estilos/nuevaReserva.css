@@ -1,0 +1,56 @@
+html,body{
+            height: 100%;
+            width: 100%;
+             position: relative;
+  min-height: 100%;
+        }
+body{
+    background-color: #343a40;
+     /* Margin bottom by footer height */
+ 
+}
+.titulos{
+  padding-left: 10px;
+  color: #b3b3c6;
+}
+
+h1.panel-title{
+	color: #b3b3c6;
+}
+
+
+label.checkeable{
+	color: #b3b3c6;
+}
+
+.checkeable input {
+  display: none;
+}
+.checkeable img {
+float:left
+}
+.checkeable input {
+  display: none;
+}
+.checkeable input:checked  + img {
+  filter: hue-rotate(120deg);
+}
+.checkeable input:disabled+img{
+filter: hue-rotate(300deg);
+}
+
+img.imgSeleccionada{
+	filter: hue-rotate(120deg);
+}
+
+label{
+	display: grid;
+}
+
+
+
+
+footer.footer{
+	display: -webkit-box;
+	height:100%;
+}

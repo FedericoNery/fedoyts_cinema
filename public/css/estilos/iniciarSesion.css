@@ -1,0 +1,30 @@
+html,body{
+            height: 100%;
+            width: 100%;
+
+        }
+body{
+      
+    background-color: #343a40;
+
+
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulos{
+  padding-left: 10px;
+  color: #b3b3c6;
+}
+
+h1.panel-title{
+	color: #b3b3c6;
+}
+
+.container{
+margin: 1rem;
+  padding: 1rem;
+  /* IMPORTANTE */
+  text-align: center;
+}
